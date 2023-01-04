@@ -12,6 +12,7 @@
   "workspaces": [
     "packages/*",
     "packages/directives/*",
+    "packages/scalars/*",
     "packages/transformers/*"
   ],
   "devDependencies": {
