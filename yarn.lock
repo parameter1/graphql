@@ -1049,6 +1049,19 @@
   dependencies:
     "@octokit/openapi-types" "^14.0.0"
 
+"@parameter1/object-path@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@parameter1/object-path/-/object-path-2.0.0.tgz#7b53785f865a1e76674cbcd0030ec0b433b12284"
+  integrity sha512-D5KOtykPc5X42X2sfx0qXG0T76OFRXvtPkzxWljbfFkLNqYe8TUltrT9s/BvuqO9RRdwnfpQTfY5tpdCGSC7YA==
+  dependencies:
+    "@parameter1/utils" "^2.0.0"
+    object-path "^0.11.8"
+
+"@parameter1/utils@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@parameter1/utils/-/utils-2.0.0.tgz#f3a20664841686f9449df986978b57f3397fb6ff"
+  integrity sha512-/FUvt6IQU+W0Pk1U6cPZ6zb7Ta3Xg/Nmbbxi+aK1KZQsc8XgVvTZJVCHxq2G+4DYLQXUsjnt7DyRFZDG7j8nHA==
+
 "@parcel/watcher@2.0.4":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@parcel/watcher/-/watcher-2.0.4.tgz#f300fef4cc38008ff4b8c29d92588eced3ce014b"
@@ -2615,6 +2628,13 @@ grapheme-splitter@^1.0.4:
   resolved "https://registry.yarnpkg.com/grapheme-splitter/-/grapheme-splitter-1.0.4.tgz#9cf3a665c6247479896834af35cf1dbb4400767e"
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
+graphql-tag@^2.12.6:
+  version "2.12.6"
+  resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.12.6.tgz#d441a569c1d2537ef10ca3d1633b48725329b5f1"
+  integrity sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==
+  dependencies:
+    tslib "^2.1.0"
+
 graphql@^16.6.0:
   version "16.6.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
@@ -3848,6 +3868,11 @@ object-keys@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
+
+object-path@^0.11.8:
+  version "0.11.8"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.8.tgz#ed002c02bbdd0070b78a27455e8ae01fc14d4742"
+  integrity sha512-YJjNZrlXJFM42wTBn6zgOJVar9KFJvzx6sTWDte8sWZF//cnjl0BxHNpfZx+ZffXX63A9q0b1zsFiBX4g4X5KA==
 
 object.assign@^4.1.2, object.assign@^4.1.4:
   version "4.1.4"
