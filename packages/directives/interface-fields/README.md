@@ -1,1 +1,1 @@
-# GraphQL Object Directive
+# GraphQL Interface Fields Directive
