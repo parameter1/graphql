@@ -10,12 +10,14 @@
     "lerna": "lerna"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/directives/*"
   ],
   "devDependencies": {
     "eslint": "^8.31.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
+    "graphql": "^16.6.0",
     "lerna": "^6.3.0"
   }
 }
