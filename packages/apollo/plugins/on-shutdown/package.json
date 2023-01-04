@@ -1,0 +1,30 @@
+{
+  "name": "@parameter1/graphql-apollo-plugin-on-shutdown",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "GraphQL Apollo on shutdown plugin",
+  "author": "Jacob Bare <jacob@parameter1.com>",
+  "homepage": "https://github.com/parameter1/graphql/tree/main/packages/apollo/plugins/on-shutdown#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parameter1/graphql.git",
+    "directory": "packages/apollo/plugins/on-shutdown"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js ./",
+    "test": "yarn lint"
+  },
+  "engines": {
+    "node": ">=14.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

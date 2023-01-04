@@ -11,6 +11,7 @@
   },
   "workspaces": [
     "packages/*",
+    "packages/apollo/plugins/*",
     "packages/directives/*",
     "packages/scalars/*",
     "packages/transformers/*"
