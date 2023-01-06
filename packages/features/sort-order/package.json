@@ -1,6 +1,6 @@
 {
   "name": "@parameter1/graphql-feature-sort-order",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "GraphQL sort order definitions",
   "author": "Jacob Bare <jacob@parameter1.com>",
