@@ -1,4 +1,4 @@
-import { gql } from '../../tag.js';
+import { gql } from 'graphql-tag';
 
 export default gql`
 
