@@ -1,6 +1,6 @@
 {
   "name": "@parameter1/graphql-feature-pagination",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "description": "GraphQL pagination definitions",
   "author": "Jacob Bare <jacob@parameter1.com>",
