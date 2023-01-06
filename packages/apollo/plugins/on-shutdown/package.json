@@ -1,6 +1,6 @@
 {
   "name": "@parameter1/graphql-apollo-plugin-on-shutdown",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "GraphQL Apollo on shutdown plugin",
   "author": "Jacob Bare <jacob@parameter1.com>",
