@@ -13,6 +13,7 @@
     "packages/*",
     "packages/apollo/plugins/*",
     "packages/directives/*",
+    "packages/features/*",
     "packages/scalars/*",
     "packages/transformers/*"
   ],

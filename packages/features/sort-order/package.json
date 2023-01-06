@@ -1,0 +1,36 @@
+{
+  "name": "@parameter1/graphql-feature-sort-order",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GraphQL sort order definitions",
+  "author": "Jacob Bare <jacob@parameter1.com>",
+  "homepage": "https://github.com/parameter1/graphql/tree/main/packages/features/sort-order#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parameter1/graphql.git",
+    "directory": "packages/features/sort-order"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js ./",
+    "test": "yarn lint"
+  },
+  "engines": {
+    "node": ">=14.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "dependencies": {
+    "graphql-tag": "^2.12.6"
+  },
+  "peerDependencies": {
+    "graphql": "^16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
