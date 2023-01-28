@@ -1,3 +1,6 @@
+/**
+ * @deprecated Do not use.
+ */
 export default {
   /**
    *
