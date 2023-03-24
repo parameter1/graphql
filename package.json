@@ -18,10 +18,10 @@
     "packages/transformers/*"
   ],
   "devDependencies": {
-    "eslint": "^8.31.0",
+    "eslint": "^8.36.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import": "^2.27.5",
     "graphql": "^16.6.0",
-    "lerna": "^6.4.0"
+    "lerna": "^6.6.1"
   }
 }
