@@ -1,6 +1,6 @@
 {
   "name": "@parameter1/graphql-directive-interface-fields",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "type": "module",
   "description": "GraphQL interface fields directive",
   "author": "Jacob Bare <jacob@parameter1.com>",
@@ -25,7 +25,7 @@
     "win32"
   ],
   "dependencies": {
-    "@parameter1/graphql-utils": "^1.0.0",
+    "@parameter1/graphql-utils": "^1.1.0",
     "graphql-tag": "^2.12.6"
   },
   "peerDependencies": {
