@@ -1,0 +1,36 @@
+{
+  "name": "@parameter1/graphql-scalar-date",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GraphQL date scalar, formatted as YYYY-MM-DD",
+  "author": "Jacob Bare <jacob@parameter1.com>",
+  "homepage": "https://github.com/parameter1/graphql/tree/main/packages/scalars/date#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parameter1/graphql.git",
+    "directory": "packages/scalars/date"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js ./",
+    "test": "yarn lint"
+  },
+  "engines": {
+    "node": ">=14.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "dependencies": {
+    "dayjs": "^1.11.7"
+  },
+  "peerDependencies": {
+    "graphql": "^16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
