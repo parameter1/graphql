@@ -1,6 +1,6 @@
 import { GraphQLScalarType } from 'graphql';
 import { Kind } from 'graphql/language/index.js';
-import dayjs from '../dayjs.js';
+import dayjs from './dayjs.js';
 
 const createError = (value) => new TypeError(`The provided value "${value}" is not a valid date.`);
 
