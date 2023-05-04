@@ -23,8 +23,12 @@ type PageInfo {
   hasPreviousPage: Boolean!
   "The final cursor of the page. Can be used as the \`CursorPaginationInput.cursor\` in \`AFTER\` mode for returning more results. Will be an empty string if no edges could be found."
   endCursor: String!
+  "The ending edge position, can be used in conjunction with \`startingPosition\` to generate pagination information like 'displaying 50 to 75 of 500 results'"
+  endingPosition: Int
   "The first cursor of the page. Can be used as the \`CursorPaginationInput.cursor\` in \`BEFORE\` mode for returning previous results. Will be an empty string if no edges could be found."
   startCursor: String!
+  "The starting edge position, can be used in conjunction with \`endingPosition\` to generate pagination information like 'displaying 50 to 75 of 500 results'"
+  startingPosition: Int
   "The final offset of the page. Can be used as the \`OffsetPaginationInput.offset\` for returning more results. Will always be \`null\` when paginating in \`CURSOR\` mode."
   endOffset: Int
   "The first offset of the page. Can be used as the \`OffsetPaginationInput.offset\` for returning previous results. Will always be \`null\` when paginating in \`CURSOR\` mode."
