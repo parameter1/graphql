@@ -1,6 +1,6 @@
 {
   "name": "@parameter1/graphql-scalar-month",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "GraphQL Month scalar",
   "author": "Jacob Bare <jacob@parameter1.com>",

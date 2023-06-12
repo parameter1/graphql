@@ -1,6 +1,6 @@
 {
   "name": "@parameter1/graphql-scalar-date-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "GraphQL DateTime scalar",
   "author": "Jacob Bare <jacob@parameter1.com>",
