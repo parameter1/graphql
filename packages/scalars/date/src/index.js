@@ -15,7 +15,7 @@ const validateDayJS = (d) => {
   return true;
 };
 
-export default ({ timezone = 'UTC' } = {}) => {
+export default ({ parseAsDate = false, timezone = 'UTC' } = {}) => {
   const createDayJSFromDate = (date) => {
     const d = dayjs.tz(date, timezone).startOf('day');
     validateDayJS(d);
@@ -48,7 +48,8 @@ export default ({ timezone = 'UTC' } = {}) => {
     name: 'Month',
     description: 'Month custom scalar type formatted as YYYY-MM.',
     parseValue(value) {
-      return parseDate(value);
+      const parsed = parseDate(value);
+      return parseAsDate ? parsed.toDate() : parsed;
     },
     serialize(value) {
       try {
@@ -59,7 +60,8 @@ export default ({ timezone = 'UTC' } = {}) => {
     },
     parseLiteral(ast) {
       const value = ast.kind === Kind.INT ? parseInt(ast.value, 10) : ast.value;
-      return parseDate(value);
+      const parsed = parseDate(value);
+      return parseAsDate ? parsed.toDate() : parsed;
     },
   });
 };
