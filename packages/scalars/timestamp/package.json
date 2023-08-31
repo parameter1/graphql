@@ -1,6 +1,6 @@
 {
   "name": "@parameter1/graphql-scalar-timestamp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "GraphQL timestamp scalar, formatted as an integer of milliseconds since the epoch.",
   "author": "Jacob Bare <jacob@parameter1.com>",
