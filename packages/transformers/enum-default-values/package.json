@@ -1,6 +1,6 @@
 {
   "name": "@parameter1/graphql-transformer-enum-default-values",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "type": "module",
   "description": "GraphQL enum default values transformer",
   "author": "Jacob Bare <jacob@parameter1.com>",
@@ -25,7 +25,7 @@
     "win32"
   ],
   "dependencies": {
-    "@parameter1/graphql-utils": "^2.1.0",
+    "@parameter1/graphql-utils": "^2.1.1",
     "@parameter1/object-path": "^2.0.0"
   },
   "peerDependencies": {
