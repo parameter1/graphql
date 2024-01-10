@@ -45,8 +45,8 @@ export default ({ parseAsDate = false, timezone = 'UTC' } = {}) => {
   };
 
   return new GraphQLScalarType({
-    name: 'Month',
-    description: 'Month custom scalar type formatted as YYYY-MM.',
+    name: 'Date',
+    description: 'Date custom scalar type formatted as YYYY-MM-DD.',
     parseValue(value) {
       const parsed = parseDate(value);
       return parseAsDate ? parsed.toDate() : parsed;
