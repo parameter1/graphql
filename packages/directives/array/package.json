@@ -1,6 +1,6 @@
 {
   "name": "@parameter1/graphql-directive-array",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "type": "module",
   "description": "GraphQL array directive",
   "author": "Jacob Bare <jacob@parameter1.com>",
@@ -25,7 +25,7 @@
     "win32"
   ],
   "dependencies": {
-    "@parameter1/graphql-utils": "^2.1.1",
+    "@parameter1/graphql-utils": "^2.1.2",
     "@parameter1/object-path": "^2.0.0",
     "graphql-tag": "^2.12.6"
   },
