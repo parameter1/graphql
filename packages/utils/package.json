@@ -25,7 +25,7 @@
     "win32"
   ],
   "dependencies": {
-    "@graphql-tools/utils": "^10.0.12"
+    "@graphql-tools/utils": "^10.3.2"
   },
   "peerDependencies": {
     "graphql": "^16.0.0"
